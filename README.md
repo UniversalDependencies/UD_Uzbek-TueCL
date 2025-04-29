@@ -1,20 +1,16 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+The Uzbek-TueCL treebank is part of a parallel Universal Dependencies corpus containing 148 sentences across four Turkic languages: Turkish, Azerbaijani, Kyrgyz, and Uzbek.
 
 
 # Introduction
 
-...
+Uzbek-TueCL consists of 148 carefully selected sentences (940 tokens) compiled from multiple sources, including the Cairo corpus (20 sentences), the UDTW23 corpus (20 sentences), and 97 additional examples illustrating specific grammatical constructions of interest. Tokenization was carried out automatically. Lemmatization, POS tags, morphological features and dependency relations were annotated manually.
 
 
 # Acknowledgments
 
-...
-
-## References
-
-* (citation)
+This work was supported by COST Action CA21167 - Universality, diversity and idiosyncrasy in language technology (UniDive). We thank the Turkic UD working group for fruitful discussions of linguistic issues and annotation approaches.
 
 
 # Changelog
@@ -34,8 +30,8 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Akhundjanova, Arofat; Akkurt, Furkan; Çöltekin, Çağrı
+Contributors: Akhundjanova, Arofat; Çöltekin, Çağrı
 Contributing: here
-Contact: arak00001@stud.uni-saarland.de, furkanakkurt7242@icloud.com
+Contact: arak00001@stud.uni-saarland.de
 ===============================================================================
 </pre>
