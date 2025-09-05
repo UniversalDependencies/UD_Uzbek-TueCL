@@ -309,6 +309,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-1
+# parallel_id = tuecl/udtw23-1
 # text = Erim chorbogʻdagi bolalar xonasini apil-tapil yigʻishtirib, oshxonadagi stolni ham chiqarib tashlabdi.
 1	Erim	er	NOUN	_	Case=Nom|Number=Sing|Poss=Yes	8	nsubj	_	_
 2	chorbogʻdagi	chorbogʻ	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
@@ -327,6 +328,7 @@
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = udtw23-2
+# parallel_id = tuecl/udtw23-2
 # text = Senga doim shuni aytaman, ertalab doʻsting bilan telefonda gaplashayotganingda men haqimda gapirma.
 1	Senga	sen	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
 2	doim	doim	ADV	_	_	4	advmod	_	_
@@ -344,6 +346,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-3
+# parallel_id = tuecl/udtw23-3
 # text = Yotgani kelgan mehmon eshikni taqillatdi, lekin uy egasi hali ham tozalash ishlari bilan band edi, restorandan buyurtma qilgan taomi esa hali kelmagan edi.
 1	Yotgani	yot	VERB	_	VerbForm=Vnoun	2	advcl	_	_
 2	kelgan	kel	VERB	_	VerbForm=Part	3	acl	_	_
@@ -373,6 +376,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = udtw23-4
+# parallel_id = tuecl/udtw23-4
 # text = Oysha - shifokor.
 1	Oysha	Oysha	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	-	-	PUNCT	_	_	1	punct	_	_
@@ -380,6 +384,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-5
+# parallel_id = tuecl/udtw23-5
 # text = Biz hal qilmoqchi boʻlayotgan muammo shuki, kutubxonada hatto beshta kitobga ham joy yoʻq.
 1	Biz	biz	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	hal	hal	PART	_	_	3	compound:lvc	_	_
@@ -398,6 +403,7 @@
 15	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = udtw23-6
+# parallel_id = tuecl/udtw23-6
 # text = Uning buvisi hamshira edi.
 1	Uning	u	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
 2	buvisi	buvi	NOUN	_	Case=Nom|Number=Sing|Poss=Yes	3	nsubj	_	_
@@ -406,6 +412,7 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-7
+# parallel_id = tuecl/udtw23-7
 # text = Xoʻsh, javondagilar qayerda edi?
 1	Xoʻsh	xoʻsh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -415,6 +422,7 @@
 6	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-8
+# parallel_id = tuecl/udtw23-8
 # text = Sude uch soatdan beri idorada yoʻq emish, Oysha ham uyda emas ekan.
 1	Sude	Sude	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 2	uch	uch	NUM	_	NumType=Card	3	nummod	_	_
@@ -432,6 +440,7 @@
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = udtw23-9
+# parallel_id = tuecl/udtw23-9
 # text = Bozorda meva bor, lekin chiroyli emas.
 1	Bozorda	bozor	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
 2	meva	meva	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
@@ -443,6 +452,7 @@
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-10
+# parallel_id = tuecl/udtw23-10
 # text = Deniz shifokor boʻladi, bilib qoʻy!
 1	Deniz	Deniz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	shifokor	shifokor	NOUN	_	Case=Nom|Number=Sing	3	xcomp	_	_
@@ -453,6 +463,7 @@
 7	!	!	PUNCT	_	_	6	punct	_	_
 
 # sent_id = udtw23-11
+# parallel_id = tuecl/udtw23-11
 # text = Deniz uyquda edi.
 1	Deniz	Deniz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	uyquda	uyqu	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
@@ -460,6 +471,7 @@
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-12
+# parallel_id = tuecl/udtw23-12
 # text = Yigʻilish eʼlon qilinayotganda juda hayron boʻlgan boʻlsa kerak, menga tikilib qoldi.
 1	Yigʻilish	yigʻilish	NOUN	_	Case=Nom|Number=Sing	3	nsubj:pass	_	_
 2	eʼlon	eʼlon	NOUN	_	Case=Nom|Number=Sing	3	compound:lvc	_	_
@@ -476,6 +488,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = udtw23-13
+# parallel_id = tuecl/udtw23-13
 # text = Kardiganim uyda ekanmi?
 1	Kardiganim	kardigan	NOUN	_	Case=Nom|Number=Sing|Poss=Yes	2	nsubj	_	_
 2	uyda	uy	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
@@ -483,6 +496,7 @@
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-14
+# parallel_id = tuecl/udtw23-14
 # text = Tadbir bugun boʻladimi?
 1	Tadbir	tadbir	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	bugun	bugun	ADV	_	_	3	advmod	_	_
@@ -490,6 +504,7 @@
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-15
+# parallel_id = tuecl/udtw23-15
 # text = Natijalar eʼlon qilingan, shunday emasmi?
 1	Natijalar	natija	NOUN	_	Case=Nom|Number=Plur	3	nsubj:pass	_	_
 2	eʼlon	eʼlon	NOUN	_	Case=Nom|Number=Sing	3	compound:lvc	_	_
@@ -500,6 +515,7 @@
 7	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = udtw23-16
+# parallel_id = tuecl/udtw23-16
 # text = Oysha bu kitobni oʻqimagan emas.
 1	Oysha	Oysha	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	bu	bu	DET	_	PronType=Dem	3	det	_	_
@@ -509,6 +525,7 @@
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-17
+# parallel_id = tuecl/udtw23-17
 # text = Umuman olganda, oʻqishni emas, rasm chizishni yaxshi koʻradi.
 1	Umuman	umuman	ADV	_	_	10	advmod	_	_
 2	olganda	ol	VERB	_	_	1	compound	_	SpaceAfter=No
@@ -523,6 +540,7 @@
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = udtw23-18
+# parallel_id = tuecl/udtw23-18
 # text = Nimani oʻqiganini emas, nimani oʻqimoqchiligini aytyapti.
 1	Nimani	nima	PRON	_	Case=Acc|Number=Sing	2	obj	_	_
 2	oʻqiganini	oʻqi	VERB	_	Case=Acc|Number=Sing|Person=3|VerbForm=Part	7	xcomp	_	_
@@ -534,6 +552,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = udtw23-19
+# parallel_id = tuecl/udtw23-19
 # text = Buning koʻki chiroyliroq, menga koʻkini bera olasanmi?
 1	Buning	bu	PRON	_	Case=Gen|Number=Sing|PronType=Dem	2	nmod:poss	_	_
 2	koʻki	koʻk	ADJ	_	_	3	nsubj	_	_
@@ -546,6 +565,7 @@
 9	?	?	PUNCT	_	_	8	punct	_	_
 
 # sent_id = udtw23-20
+# parallel_id = tuecl/udtw23-20
 # text = Biz yoshlarni erisha olmaydigan maqsadlardan voz kechtirishimiz kerak.
 1	Biz	biz	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 2	yoshlarni	yosh	ADJ	_	Case=Acc|Number=Plur	7	obj	_	_
@@ -558,6 +578,7 @@
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = udtw23-21
+# parallel_id = tuecl/udtw23-21
 # text = Oʻqituvchi kitobni olib maktabga ketdi.
 1	Oʻqituvchi	oʻqituvchi	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 2	kitobni	kitob	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
@@ -567,6 +588,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = udtw23-22
+# parallel_id = tuecl/udtw23-22
 # text = Oʻqituvchi kitobni maktabga olib ketdi.
 1	Oʻqituvchi	oʻqituvchi	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 2	kitobni	kitob	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
