@@ -1,4 +1,5 @@
 # sent_id = cairo-1
+# parallel_id = cairo/1
 # text = Qiz doʻstiga xat yozdi.
 1	Qiz	qiz	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	doʻstiga	doʻst	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
@@ -7,6 +8,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-2
+# parallel_id = cairo/2
 # text = Menimcha, yomgʻir yogʻyapti.
 1	Menimcha	menimcha	ADV	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -15,6 +17,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-3.1
+# parallel_id = cairo/3/alt1
 # text = U chekish va ichishni tashlashga harakat qildi.
 1	U	u	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 2	chekish	chek	VERB	_	Case=Nom|VerbForm=Vnoun	5	xcomp	_	_
@@ -26,6 +29,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = cairo-3.2
+# parallel_id = cairo/3/alt2
 # text = Chekish va ichishni tashlashga harakat qildi.
 1	Chekish	chek	VERB	_	Case=Nom|VerbForm=Vnoun	4	xcomp	_	_
 2	va	va	CCONJ	_	_	3	cc	_	_
@@ -36,6 +40,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-4.1
+# parallel_id = cairo/4/alt1
 # text = Sen ketishni istaysanmi?
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	ketishni	ket	VERB	_	Case=Acc|VerbForm=Vnoun	3	xcomp	_	_
@@ -43,12 +48,14 @@
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-4.2
+# parallel_id = cairo/4/alt2
 # text = Ketishni istaysanmi?
 1	Ketishni	ket	VERB	_	Case=Acc|VerbForm=Vnoun	2	xcomp	_	_
 2	istaysanmi	ista	VERB	_	Mood=Int|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-5
+# parallel_id = cairo/5
 # text = Sem, derazani och!
 1	Sem	Sem	PROPN	_	Case=Nom|Number=Sing	4	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -57,6 +64,7 @@
 5	!	!	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-6.1
+# parallel_id = cairo/6/alt1
 # text = U eriga mashinani yuvdirdi.
 1	U	u	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	eriga	er	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
@@ -65,6 +73,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-6.2
+# parallel_id = cairo/6/alt2
 # text = Eriga mashinani yuvdirdi.
 1	Eriga	er	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
 2	mashinani	mashina	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
@@ -72,6 +81,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-7
+# parallel_id = cairo/7
 # text = Piterning qoʻshnisi panjarani qizilga boʻyadi.
 1	Piterning	Piter	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	qoʻshnisi	qoʻshni	NOUN	_	Case=Nom|Number=Sing|Poss=Yes	5	nsubj	_	_
@@ -81,6 +91,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-8
+# parallel_id = cairo/8
 # text = Mening dadam senikidan zoʻrroq.
 1	Mening	men	PRON	_	Case=Gen|Number=Sing|PronType=Prs	2	nmod:poss	_	_
 2	dadam	dada	NOUN	_	Case=Nom|Number=Sing|Poss=Yes	4	nsubj	_	_
@@ -89,6 +100,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-9
+# parallel_id = cairo/9
 # text = Meri bronza, Piter kumush, Jeyn oltin medalni qoʻlga kiritdi.
 1	Meri	Meri	PROPN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 2	bronza	bronza	NOUN	_	Case=Nom|Number=Sing	9	amod	_	SpaceAfter=No
@@ -104,6 +116,7 @@
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = cairo-10
+# parallel_id = cairo/10
 # text = Iguazu katta mamlakatmi yoki kichik?
 1	Iguazu	Iguazu	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	katta	katta	ADJ	_	_	3	amod	_	_
@@ -113,6 +126,7 @@
 6	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-11
+# parallel_id = cairo/11
 # text = Piter Smit ham, Meri Braun ham saylana olmaydi.
 1	Piter	Piter	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 2	Smit	Smit	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
@@ -126,6 +140,7 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = cairo-12.1
+# parallel_id = cairo/12/alt1
 # text = Ular kim yozganini bilmaydi.
 1	Ular	u	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 2	kim	kim	PRON	_	Case=Nom|Number=Sing|PronType=Int	3	nsubj	_	_
@@ -134,6 +149,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-12.2
+# parallel_id = cairo/12/alt2
 # text = Kim yozganini bilmaydi.
 1	Kim	kim	PRON	_	Case=Nom|Number=Sing|PronType=Int	2	nsubj	_	_
 2	yozganini	yoz	VERB	_	Case=Acc|VerbForm=Part	3	ccomp	_	_
@@ -141,6 +157,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-13.1
+# parallel_id = cairo/13/alt1
 # text = Sen nimaga qarayapsan?
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	nimaga	nima	PRON	_	Case=Dat|Number=Sing|PronType=Int	3	obl	_	_
@@ -148,12 +165,14 @@
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-13.2
+# parallel_id = cairo/13/alt2
 # text = Nimaga qarayapsan?
 1	Nimaga	nima	PRON	_	Case=Dat|Number=Sing|PronType=Int	2	obl	_	_
 2	qarayapsan	qara	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-14.1
+# parallel_id = cairo/14/alt1
 # text = Sen qachon kelishing mumkin deb oʻylaysan?
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 2	qachon	qachon	ADV	_	PronType=Int	3	advmod	_	_
@@ -164,6 +183,7 @@
 7	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-14.2
+# parallel_id = cairo/14/alt2
 # text = Qachon kelishing mumkin deb oʻylaysan?
 1	Qachon	qachon	ADV	_	PronType=Int	2	advmod	_	_
 2	kelishing	kel	VERB	_	VerbForm=Vnoun	5	xcomp	_	_
@@ -173,6 +193,7 @@
 6	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-15.1
+# parallel_id = cairo/15/alt1
 # text = U mashina oldi, lekin ukasi faqat velosiped oldi.
 1	U	u	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	mashina	mashina	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
@@ -186,6 +207,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-15.2
+# parallel_id = cairo/15/alt2
 # text = Mashina oldi, lekin ukasi faqat velosiped oldi.
 1	Mashina	mashina	NOUN	_	Case=Nom|Number=Sing	2	obj	_	_
 2	oldi	ol	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
@@ -198,6 +220,7 @@
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-16
+# parallel_id = cairo/16
 # text = Piter va Meri bir-birlarini quchoqladilar va shundan soʻng xonadan chiqdilar.
 1	Piter	Piter	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 2	va	va	CCONJ	_	_	3	cc	_	_
@@ -212,6 +235,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-17.1
+# parallel_id = cairo/17/alt1
 # text = U sochini turmaklashi kerak edi, lekin negadir oʻsha kuni turmaklamadi.
 1	U	u	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	sochini	soch	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
@@ -227,6 +251,7 @@
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-17.2
+# parallel_id = cairo/17/alt2
 # text = Sochini turmaklashi kerak edi, lekin negadir oʻsha kuni turmaklamadi.
 1	Sochini	soch	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
 2	turmaklashi	turmakla	VERB	_	Number=Sing|Person=3|VerbForm=Vnoun	0	root	_	_
@@ -241,6 +266,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-18
+# parallel_id = cairo/18
 # text = U juda tez yugurgani uchun yeta olmadim.
 1	U	u	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	juda	juda	ADV	_	_	3	advmod	_	_
@@ -252,6 +278,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = cairo-19
+# parallel_id = cairo/19
 # text = Bu xat Piterdan va u kecha keldi.
 1	Bu	bu	DET	_	PronType=Dem	2	det	_	_
 2	xat	xat	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
@@ -263,6 +290,7 @@
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-20.1
+# parallel_id = cairo/20/alt1
 # text = U Fransiya poytaxti Parijda oʻsgan.
 1	U	u	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	Fransiya	Fransiya	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
@@ -272,6 +300,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-20.2
+# parallel_id = cairo/20/alt2
 # text = Fransiya poytaxti Parijda oʻsgan.
 1	Fransiya	Fransiya	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	poytaxti	poytaxt	NOUN	_	Case=Nom|Number=Sing|Poss=Yes	3	nmod	_	_
