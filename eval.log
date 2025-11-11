@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Uzbek-TueCL:
-commit d9ecf9d11d2bbcc36b8f51cfa42a288c1575b34e
+commit a8600d712ecf07fff8a6cb26e34c88602e1a4803
+Merge: e5fb539 f4f21ae
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 22:45:29 2025 +0200
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'uz_tuecl'
+Language code (from CoNLL-U file name) = 'uz'
+Found the following data files: uz_tuecl-ud-test.conllu
 Size: counted 939 of 939 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,22 +23,29 @@ Features: 596 out of 939 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 26 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL         99
-Udapi: found 99 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 939 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang uz --max-err=10 UD_Uzbek-TueCL/uz_tuecl-ud-test.conllu
+[Line 228 Sent cairo-16]: [L3 Warning pron-det-without-prontype] The word 'bir-birlarini' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 323 Sent udtw23-1]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'stolni') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 420 Sent udtw23-7]: [L3 Warning pron-det-without-prontype] The word 'qayerda' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 485 Sent udtw23-12]: [L3 Warning pron-det-without-prontype] The word 'menga' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 545 Sent udtw23-18]: [L3 Warning pron-det-without-prontype] The word 'Nimani' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 549 Sent udtw23-18]: [L3 Warning pron-det-without-prontype] The word 'nimani' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 561 Sent udtw23-19]: [L3 Warning pron-det-without-prontype] The word 'menga' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 695 Sent 11]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'likopcha') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1163 Sent 60]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'bola') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1182 Sent 62]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'bolaning') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further errors regarding Warning
+Warnings: 13
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0) = 0
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.702702702702703) = 0.0540540540540541
-(TOTAL score=0.283636758930877) * (availability=1) * (validity=1) = 0.283636758930877
-STARS = 1.5
-UD_Uzbek-TueCL	0.283636758930877	1.5
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0) = 0
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
+(weight=0.111111111111111) * (score{udeprels}=0.702702702702703) = 0.0780780780780781
+(TOTAL score=0.405253096233488) * (availability=1) * (validity=1) = 0.405253096233488
+STARS = 2
+UD_Uzbek-TueCL	0.405253096233488	2
