@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Uzbek-TueCL:
-commit a8600d712ecf07fff8a6cb26e34c88602e1a4803
-Merge: e5fb539 f4f21ae
+commit b071dbe07fc50b078d29d101e34db8fbbd3df197
+Merge: 4fd6cf5 b5fee0b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'uz_tuecl'
@@ -25,20 +25,24 @@ Universal relations: 26 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang uz --max-err=10 UD_Uzbek-TueCL/uz_tuecl-ud-test.conllu
-[Line 228 Sent cairo-16]: [L3 Warning pron-det-without-prontype] The word 'bir-birlarini' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 323 Sent udtw23-1]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'stolni') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 420 Sent udtw23-7]: [L3 Warning pron-det-without-prontype] The word 'qayerda' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 485 Sent udtw23-12]: [L3 Warning pron-det-without-prontype] The word 'menga' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 545 Sent udtw23-18]: [L3 Warning pron-det-without-prontype] The word 'Nimani' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 549 Sent udtw23-18]: [L3 Warning pron-det-without-prontype] The word 'nimani' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 561 Sent udtw23-19]: [L3 Warning pron-det-without-prontype] The word 'menga' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 695 Sent 11]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'likopcha') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1163 Sent 60]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'bola') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1182 Sent 62]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'bolaning') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-...suppressing further errors regarding Warning
-Warnings: 13
-*** PASSED ***
-Validity: 1
+[Line 228 Sent cairo-16]: [L3 WARNING pron-det-without-prontype] The word 'bir-birlarini' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 323 Sent udtw23-1]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'stolni') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 420 Sent udtw23-7]: [L3 WARNING pron-det-without-prontype] The word 'qayerda' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 485 Sent udtw23-12]: [L3 WARNING pron-det-without-prontype] The word 'menga' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 545 Sent udtw23-18]: [L3 WARNING pron-det-without-prontype] The word 'Nimani' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 549 Sent udtw23-18]: [L3 WARNING pron-det-without-prontype] The word 'nimani' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 561 Sent udtw23-19]: [L3 WARNING pron-det-without-prontype] The word 'menga' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 695 Sent 11]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'likopcha') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1163 Sent 60]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'bola') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1182 Sent 62]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'bolaning') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1210 Sent 64]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'joyi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1376 Sent 83]: [L3 WARNING pron-det-without-prontype] The word 'Menga' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1456 Sent 92]: [L3 WARNING pron-det-without-prontype] The word 'biz' is tagged 'PRON' but it lacks the 'PronType' feature
+Warnings: 8
+SYNTAX errors: 5
+*** FAILED *** with 5 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -46,6 +50,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
 (weight=0.111111111111111) * (score{udeprels}=0.702702702702703) = 0.0780780780780781
-(TOTAL score=0.405253096233488) * (availability=1) * (validity=1) = 0.405253096233488
-STARS = 2
-UD_Uzbek-TueCL	0.405253096233488	2
+(TOTAL score=0.405253096233488) * (availability=1) * (validity=0.01) = 0.00405253096233488
+STARS = 0
+UD_Uzbek-TueCL	0.00405253096233488	0
