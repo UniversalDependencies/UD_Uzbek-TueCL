@@ -90,13 +90,13 @@
     <dep name="discourse">6</dep>
     <dep name="flat">2</dep>
     <dep name="mark">4</dep>
-    <dep name="nmod">15</dep>
+    <dep name="nmod">20</dep>
     <dep name="nmod:poss">11</dep>
     <dep name="nsubj">131</dep>
     <dep name="nsubj:pass">5</dep>
     <dep name="nummod">5</dep>
     <dep name="obj">61</dep>
-    <dep name="obl">84</dep>
+    <dep name="obl">79</dep>
     <dep name="parataxis">10</dep>
     <dep name="punct">193</dep>
     <dep name="root">148</dep>
